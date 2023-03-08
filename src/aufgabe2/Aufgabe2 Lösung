@@ -1,0 +1,83 @@
+i = 0
+j = 7
+k = 13
+
+// Snippet 1
+if (i > 0 || j > 5) {
+    k = 10;
+}
+
+True
+--> k = 10
+    i = 0
+    j = 7
+
+// Snippet 2
+if (i > 0 && j > 5) {
+    k = 10;
+}
+
+False
+--> k = 13
+    i = 0
+    j = 7
+
+// Snippet 3
+if ((i > 0 && j > 5) || k < 15) {
+    k = 10;
+}
+
+True
+--> k = 10
+    i = 0
+    j = 7
+
+// Snippet 4
+if ((i > 0 || j > 5) && k > 15) {
+    k = 10;
+}
+
+False
+--> k = 13
+    i = 0
+    j = 7
+
+// Snippet 5
+if (i == 0 & j++ < 5) {
+    k = 10;
+}
+
+False
+--> k = 13
+    i = 0
+    j = 8
+
+// Snippet 6
+if (i == 0 && j++ < 5) {
+    k = 10;
+}
+
+False
+--> k = 13
+    i = 0
+    j = 7
+
+// Snippet 7
+if (i != 0 && j++ < 5) {
+    k = 10;
+}
+
+False
+--> k = 13
+    i = 0
+    j = 7
+
+// Snippet 8
+if (i != 0 & j++ < 5) {
+    k = 10;
+}
+
+False
+--> k = 13
+    i = 0
+    j = 8

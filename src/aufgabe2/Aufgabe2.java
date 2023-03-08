@@ -1,11 +1,11 @@
 package aufgabe2;
-
+// https://training.bitelligence.net/java/exercise/operators/operators
 public class Aufgabe2 {
-
+    // Welchen Wert haben i, j und k nach der Ausführung der einzelnen Codeblöcke?
     public static void main(String[] args){
         int i = 0;
-        int j = 0;
-        int k = 0;
+        int j = 7;
+        int k = 13;
 
         // Snippet 1
         if (i > 0 || j > 5) {
