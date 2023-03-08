@@ -1,5 +1,5 @@
 package aufgabe1;
-
+// https://training.bitelligence.net/java/exercise/data-types/declaration
 public class Aufgabe1 {
     // Welchen der folgenden Datentypen int long float double haben folgende Ausdrücke und welchen Wert nehmen sie nach dem Durchlaufen der Anwendung an?
 
